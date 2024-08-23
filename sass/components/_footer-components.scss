@@ -1,14 +1,14 @@
-.subscribe-list {
+.subscribe__list {
   display: flex;
   gap: 10px;
 }
-.subscribe-list-item {
+.subscribe__list__item {
   width: 44px;
   height: 44px;
 
   border-radius: 22px;
 }
-.subscribe-list-link {
+.subscribe__list__link {
   width: 44px;
   height: 44px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -17,15 +17,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  &:hover {
+    background-color: $blue-color;
+  }
 }
-.subscribe-list-icon {
+.subscribe__list__icon {
   fill: $white-color;
-}
-.subscribe-list-link:hover {
-  background-color: $blue-color;
+
+  &--instagram {
+    width: 20px;
+    height: 20px;
+  }
+  &--twitter {
+    width: 20px;
+    height: 16.25px;
+  }
+  &--facebook {
+    width: 10px;
+    height: 20px;
+  }
+  &--linkedin {
+    width: 20px;
+    height: 20px;
+  }
 }
 
-.subscribe-title {
+
+
+.subscribe__title {
   color: $white-color;
   margin-bottom: 20px;
   font-size: 14px;
@@ -53,7 +72,7 @@
   margin-top: 72px;
   margin-left: 93px;
 }
-.newsletter-title {
+.newsletter__title {
   color: $white-color;
   font-size: 14px;
   font-weight: 700;
@@ -62,11 +81,11 @@
   text-align: left;
   text-transform: uppercase;
 }
-.newsletter-form {
+.newsletter__form {
   display: flex;
   justify-content: space-between;
 }
-.newsletter-input {
+.newsletter__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -77,9 +96,8 @@
   padding-right: 16px;
   color: rgba(255, 255, 255, 0.6);
   font-size: 17px;
-}
 
-.newsletter-input::placeholder {
+  &::placeholder {
   color: rgba(255, 255, 255, 0.6);
 
   font-size: 16px;
@@ -88,7 +106,9 @@
 
   text-align: left;
 }
-.newsletter-btn {
+}
+
+.newsletter__btn {
   width: 200px;
   height: 50px;
 
@@ -100,7 +120,7 @@
   justify-content: center;
   gap: 10px;
 }
-.newsletter-btn span {
+.newsletter__btn span {
   display: block;
   font-size: 16px;
   color: $white-color;
@@ -108,7 +128,7 @@
   line-height: calc(30 / 16);
   text-align: center;
 }
-.newsletter-btn img {
+.newsletter__btn img {
   width: 24px;
   height: 24px;
 }

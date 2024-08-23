@@ -5,24 +5,24 @@
   display: flex;
   margin: 0 auto;
 }
-.accent-blue {
+.accent__blue {
   color: $blue-color;
 }
-.footer-logo {
+.footer__logo {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   line-height: calc(31 / 26);
   color: $white-color;
 }
-.footer-location {
+.footer__location {
   color: $white-color;
-
+  margin-top: 9px;
   font-size: 14px;
   font-weight: 400;
   line-height: calc(24 / 14);
 }
-.footer-contact-link {
+.footer__contact__link {
   color: $footer-grey;
 
   font-size: 14px;
@@ -30,18 +30,16 @@
   line-height: calc(24 / 14);
 }
 
-.footer-flex {
+.footer__flex {
   margin-top: 60px;
 }
-.footer-container {
+.footer__container {
   margin: 0 auto;
   display: flex;
 }
-.footer-address {
+.footer__address {
   margin-top: 20px;
   font-style: normal;
   width: 231px;
 }
-.footer-location {
-  margin-top: 9px;
-}
+

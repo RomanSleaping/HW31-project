@@ -12,7 +12,7 @@
     ),
     url(../img/studio-img/hero.jpg);
 }
-.hero-title {
+.hero__title {
   color: $white-color;
   line-height: calc(60 / 44);
   font-size: 44px;
@@ -21,14 +21,14 @@
   text-align: center;
   text-transform: uppercase;
 }
-.hero-flex {
+.hero__flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.hero-btn {
+.hero__btn {
   background-color: $blue-button;
   color: $white-color;
   width: 216px;
